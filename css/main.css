@@ -1,0 +1,148 @@
+/************* BASE STYLES *************/
+
+* { box-sizing: border-box; }
+
+body { 
+    background-color: #ffffff;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+    margin: 0;
+    text-size-adjust: 100%;
+}
+
+ul { 
+    padding: 0; 
+    margin: 0; 
+    list-style: none; 
+}
+
+a { 
+    color: #2979FF; 
+    text-decoration: none; 
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    margin: 0; 
+}
+
+/************* FLEX STYLES *************/
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.column {
+    flex-flow: column;
+}
+
+.flow-wrap {
+    flex-flow: wrap;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/*******************************/
+
+.logo {
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+header {
+    padding: 2.5%;
+}
+
+.headline {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.tagline {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1.25px;
+}
+
+#hero {
+    margin: 10% 0;
+}
+
+section h2 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+#causes .wrapper p {
+    text-align: center;
+}
+
+#causes .wrapper figcaption {
+    margin-top: 2%;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+figure {
+    margin: 0 auto;
+}
+
+#contact-btn {
+    
+}
+
+.copyright {
+    width: 100%;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-align: center;
+    color: #2979FF;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+.card {
+    width: 80%;
+    height: 20rem;
+    background-color: #222222;
+    border-radius: 5px;
+    padding: 2% 5%;
+    margin-bottom: 15px;
+}
+
+.portrait {
+    width: 25rem;
+    height: 25rem;
+}
+
+.skills {
+    width: 7rem;
+    height: 7rem;
+    background-color: #222222;
+    border-radius: 5px;
+    color: #2979FF;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+#skills>div {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
